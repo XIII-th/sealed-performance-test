@@ -1,0 +1,25 @@
+Benchmark                                      Mode        Cnt        Score       Error  Units
+CompareSealedVsTagged.sealed                  thrpt        500   940739,966 ±  5350,341  ops/s
+CompareSealedVsTagged.tagged                  thrpt        500  1281274,381 ± 10675,956  ops/s
+CompareSealedVsTagged.sealed                   avgt        500       ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.tagged                   avgt        500       ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.sealed                 sample  137158672       ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.sealed:sealed·p0.00    sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.sealed:sealed·p0.50    sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.sealed:sealed·p0.90    sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.sealed:sealed·p0.95    sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.sealed:sealed·p0.99    sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.sealed:sealed·p0.999   sample                  ≈ 10⁻⁵               s/op
+CompareSealedVsTagged.sealed:sealed·p0.9999  sample                  ≈ 10⁻⁴               s/op
+CompareSealedVsTagged.sealed:sealed·p1.00    sample                   0,002               s/op
+CompareSealedVsTagged.tagged                 sample  179494434       ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.tagged:tagged·p0.00    sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.tagged:tagged·p0.50    sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.tagged:tagged·p0.90    sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.tagged:tagged·p0.95    sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.tagged:tagged·p0.99    sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.tagged:tagged·p0.999   sample                  ≈ 10⁻⁶               s/op
+CompareSealedVsTagged.tagged:tagged·p0.9999  sample                  ≈ 10⁻⁵               s/op
+CompareSealedVsTagged.tagged:tagged·p1.00    sample                   0,006               s/op
+CompareSealedVsTagged.sealed                     ss        500       ≈ 10⁻⁵               s/op
+CompareSealedVsTagged.tagged                     ss        500       ≈ 10⁻⁵               s/op
